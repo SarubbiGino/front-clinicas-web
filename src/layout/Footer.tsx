@@ -2,6 +2,7 @@ import { Link, Stack, Typography, useMediaQuery, Box } from "@mui/material";
 import { Facebook, Twitter, Instagram, Phone } from "@mui/icons-material";
 
 
+
 const Footer = () => {
   return (
     <Stack
@@ -83,7 +84,7 @@ const Footer = () => {
         </Stack>
       </Stack>
       <Stack 
-  
+     
        >
         <Typography variant={"h5"} className="subtitle bold" textAlign={"center"}>
           Desarrollado por
