@@ -1,12 +1,12 @@
 import { Link, Stack, Typography, useMediaQuery, Box } from "@mui/material";
 import { Facebook, Twitter, Instagram, Phone } from "@mui/icons-material";
 
+
 const Footer = () => {
   return (
     <Stack
       display={"flex"}
       flexDirection={{ xs: "column", md: "row" }}
-      spacing={2}
       width={"100%"}
       alignItems={{
         xs: "center",
@@ -82,13 +82,16 @@ const Footer = () => {
           </Box>
         </Stack>
       </Stack>
-      <Stack display={"flex"}  >
+      <Stack 
+  
+       >
         <Typography variant={"h5"} className="subtitle bold" textAlign={"center"}>
           Desarrollado por
         </Typography>
         <Box sx={{
           display: "flex",
           flexDirection: "column",
+
         }}>
           <Box sx={{
             display: "flex",
