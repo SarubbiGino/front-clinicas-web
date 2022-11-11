@@ -1,0 +1,15 @@
+.alink:hover{
+    color:var(--color-primario);
+    text-decoration: none;
+}
+
+
+
+
+@media  screen and (max-width: 768px) {
+  .link{
+    display: none;
+  }
+
+}
+    
